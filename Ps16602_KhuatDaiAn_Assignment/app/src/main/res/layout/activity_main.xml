@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnThemLop"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/costom_button"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:icon="@drawable/add"
+        app:iconPadding="?android:attr/windowTitleSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/costom_button"
+        app:backgroundTint="@color/teal_200"
+        app:icon="@drawable/an02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="176dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="Danh Sách Lớp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/btnDSL" />
+
+    <Button
+        android:id="@+id/btnQLSV"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/costom_button"
+        android:text="Quản Lý Sinh Viên"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        app:backgroundTint="@color/b"
+        app:icon="@drawable/icons8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDSL" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Thêm Lớp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThemLop" />
+
+    <Button
+        android:id="@+id/btnDSL"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/costom_button"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:icon="@drawable/list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="360dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fpt"
+        tools:srcCompat="@drawable/fpt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
